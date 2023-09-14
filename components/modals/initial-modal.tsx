@@ -92,6 +92,12 @@ export const InitialModal = () => {
               <Button disabled={isLoading} variant={"primary"}>
                 Submit
               </Button>
+              <Button disabled={isLoading} variant={"red"}>
+                  Cancel
+              </Button>
+              <Button disabled={isLoading} variant={"primary"}>
+                Join Server
+              </Button>
             </DialogFooter>
           </form>
         </Form>
